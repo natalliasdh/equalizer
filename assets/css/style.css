@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 100%;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #191826;
+    line-height: 1.625rem;
+    /*26px*/
+    box-sizing: border-box;
+    background-image: url("../images/bg-main-mobile.png");
+    background-position: 100px -300px;
+    background-repeat: no-repeat;
+}
+
+.content {
+    flex: 1 0 auto;
+}
+
+footer {
+    flex-shrink: 0;
+    width: 100%;
+}
+
+.logo {
+    width: 146px;
+    height: 32px;
+    padding-top: 40px;
+}
+
+header {
+    margin-bottom: 64px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    line-height: 3rem;
+    letter-spacing: -0.028rem;
+    margin-bottom: 20px;
+}
+
+.main-info {
+    margin-bottom: 166px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.color-blocks {
+    position: relative;
+    width: 100%;
+    margin-bottom: 326px;
+}
+
+.phone {
+    background-color: #191826;
+    border-radius: 12px;
+    height: 600px;
+    width: 100%;
+    background-image: url("../images/bg-pattern-2.svg");
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+.phone-image {
+    width: 209px;
+    height: 430px;
+    background-image: url("../images/illustration-app.png");
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: -98px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.premium {
+    background-color: #FA7453;
+    border-radius: 12px;
+    padding: 48px 36px;
+    position: absolute;
+    top: 380px;
+    color: #FCFAF9;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+h2 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+    margin-bottom: 12px;
+}
+
+.premium-p {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    margin-bottom: 36px;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+.number {
+    font-weight: bold;
+    font-size: 4rem;
+    margin-right: 16px;
+}
+
+button {
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 12px;
+    border: none;
+    font-weight: bold;
+    font-size: 1.125rem;
+    line-height: 2rem;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ios {
+    margin-bottom: 15px;
+    background-color: #191826;
+    color: #FCFAF9;
+}
+
+.android {
+    background-color: #FCFAF9;
+}
+
+footer {
+    padding: 24px;
+    box-sizing: border-box;
+}
+
+footer p {
+    margin-top: 32px;
+    margin-bottom: 64px;
+}
+
+.social img {
+    margin-right: 20px;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button img {
+    margin-right: 8px;
+}
